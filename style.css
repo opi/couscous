@@ -120,7 +120,7 @@ body .container .player .progress-box .progress-cell .progress {
   width: auto;
 }
 body .container .player .progress-box .progress-cell .progress .progress-buffer {
-  background: #337ab7;
+  background: hotpink;
   height: 100%;
   width: 0;
 }
@@ -227,7 +227,7 @@ body .container .play-list .play-list-row .track-title.active-track {
 }
 body .container .play-list .play-list-row .track-title.active-track .playlist-track {
   color: hotpink;
-  
+
 }
 body .container .play-list .play-list-row:before, body .container .play-list .play-list-row:after {
   content: " ";
