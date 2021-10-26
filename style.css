@@ -40,11 +40,13 @@ body .container .player {
   *zoom: 1;
   width: 100%;
 
-  height:  5rem;
+  min-height:  5rem;
   display: flex;
   align-items: center;
 justify-content: space-around;
 margin-bottom:  2rem;
+flex-direction:  row;
+flex-wrap:  wrap;
 }
 body .container .player .large-toggle-btn {
   /*border: 1px solid #d9d9d9;*/
@@ -105,7 +107,7 @@ body .container .player .info-box .track-info-box:after {
 }
 body .container .player .progress-box {
   float: left;
-  min-width: 270px;
+  /*min-width: 270px;*/
   position: relative;
 }
 body .container .player .progress-box .progress-cell {
@@ -250,7 +252,12 @@ body {
   align-items: center;
   justify-content: center;
   height: 100%;
-  padding: 4rem;
+  padding: 2rem;
+}
+@media screen and (min-width: 768px) {
+  body {
+    padding:  4rem;
+  }
 }
 .container {
   margin:  2rem auto;
@@ -289,7 +296,7 @@ h1 {
   font-weight: bold;
   text-decoration: none;
   padding: 1rem;
-  border-radius: 0.5rem;
+  border-radius: 0.5rem;word-wrap: anywhere;
 
 }
 .download a:hover {
